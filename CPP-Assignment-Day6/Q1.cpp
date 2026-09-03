@@ -12,7 +12,7 @@ class Date{
     Date(int date, int month, int year) : date(date), month(month), year(year) {};
 
     // member function to accept value -n-print stored values 
-    void accept(){
+    void accept(int date, int month, int year){
         this->date=date;
         this->month=month;
         this->year=year;
